@@ -26,6 +26,8 @@ apis:
       - Mobile
       - Push Notifications
     properties:
+      - url: openapi/microsoft-azure-notification-hubs-openapi.yml
+        type: OpenAPI
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
       - type: Authentication
