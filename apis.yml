@@ -1,7 +1,8 @@
 name: Azure Notification Hubs
-description: Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push notifications
-  to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing, template notifications,
-  scheduled sends, and telemetry for tracking delivery metrics.
+description: >-
+  Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push
+  notifications to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing,
+  template notifications, scheduled sends, and telemetry for tracking delivery metrics.
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Cross-Platform
@@ -14,30 +15,25 @@ modified: '2026-05-19'
 specificationVersion: '0.18'
 apis:
   - name: Azure Notification Hubs REST API
-    description: Azure Notification Hubs REST API enables sending push notifications at scale to iOS, Android, Windows, and
-      other platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and telemetry
-      for tracking delivery metrics.
+    description: >-
+      Azure Notification Hubs REST API enables sending push notifications at scale to iOS, Android, Windows, and other
+      platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and
+      telemetry for tracking delivery metrics.
     image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
     baseURL: https://{namespace}.servicebus.windows.net/
     tags:
-    - Cross-Platform
-    - Messaging
-    - Mobile
-    - Push Notifications
+      - Cross-Platform
+      - Messaging
+      - Mobile
+      - Push Notifications
     properties:
-    - url: openapi/microsoft-azure-notification-hubs-openapi.yml
-      type: OpenAPI
-    - type: Documentation
-      url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
-    - type: Authentication
-      url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-notification-hubs-installations.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-notification-hubs-notifications.yaml
-    - type: NaftikoCapability
-      url: capabilities/microsoft-azure-notification-hubs-registrations.yaml
+      - url: openapi/microsoft-azure-notification-hubs-openapi.yml
+        type: OpenAPI
+      - type: Documentation
+        url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+      - type: Authentication
+        url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
 common:
   - type: GitHubOrganization
     url: https://github.com/Azure

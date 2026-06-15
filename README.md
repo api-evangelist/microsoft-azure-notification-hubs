@@ -1,37 +1,47 @@
 # Azure Notification Hubs (microsoft-azure-notification-hubs)
+
 Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push notifications to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and telemetry for tracking delivery metrics.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/apis.yml)
+## Tags
 
-## Tags:
-
- - Cross-Platform, Messaging, Mobile, Notifications, Push Notifications
+- Cross-Platform
+- Messaging
+- Mobile
+- Notifications
+- Push Notifications
 
 ## Timestamps
 
 - **Created:** 2026-03-13
-- **Modified:** 2026-04-28
+- **Modified:** 2026-05-19
 
 ## APIs
 
 ### Azure Notification Hubs REST API
+
 Azure Notification Hubs REST API enables sending push notifications at scale to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and telemetry for tracking delivery metrics.
 
-**Human URL:** [https://learn.microsoft.com/en-us/rest/api/notificationhubs/](https://learn.microsoft.com/en-us/rest/api/notificationhubs/)
+- **Human URL:** [https://learn.microsoft.com/en-us/rest/api/notificationhubs/](https://learn.microsoft.com/en-us/rest/api/notificationhubs/)
+- **Base URL:** `https://{namespace}.servicebus.windows.net/`
 
-**Base URL:** https://{namespace}.servicebus.windows.net/
+#### Tags
 
-#### Tags:
-
- - Cross-Platform, Messaging, Mobile, Push Notifications
+- Cross-Platform
+- Messaging
+- Mobile
+- Push Notifications
 
 #### Properties
 
+- [OpenAPI](openapi/microsoft-azure-notification-hubs-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+- [Postman Collection](collections/microsoft-azure-notification-hubs.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Open Collection](collections/microsoft-azure-notification-hubs.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
 - [Documentation](https://learn.microsoft.com/en-us/rest/api/notificationhubs/)
 - [Authentication](https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication)
 
 ## Common Properties
 
+- [GitHub Organization](https://github.com/Azure)
 - [Portal](https://portal.azure.com/)
 - [Pricing](https://azure.microsoft.com/en-us/pricing/details/notification-hubs/)
 - [Documentation](https://learn.microsoft.com/en-us/azure/notification-hubs/)
@@ -45,5 +55,4 @@ Azure Notification Hubs REST API enables sending push notifications at scale to 
 ## Maintainers
 
 **FN:** Kin Lane
-
 **Email:** kin@apievangelist.com
