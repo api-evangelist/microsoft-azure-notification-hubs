@@ -3,7 +3,7 @@ description: >-
   Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push
   notifications to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing,
   template notifications, scheduled sends, and telemetry for tracking delivery metrics.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Cross-Platform
   - Messaging
@@ -19,7 +19,7 @@ apis:
       Azure Notification Hubs REST API enables sending push notifications at scale to iOS, Android, Windows, and other
       platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and
       telemetry for tracking delivery metrics.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
     baseURL: https://{namespace}.servicebus.windows.net/
     tags:
