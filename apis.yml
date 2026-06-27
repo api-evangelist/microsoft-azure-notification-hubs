@@ -45,7 +45,7 @@ common:
     url: https://learn.microsoft.com/en-us/azure/notification-hubs/
   - type: Website
     url: https://azure.microsoft.com/en-us/products/notification-hubs
-  - type: SignUp
+  - type: Signup
     url: https://azure.microsoft.com/en-us/free/
   - type: Login
     url: https://portal.azure.com/
