@@ -35,6 +35,10 @@ apis:
       - type: Authentication
         url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
 common:
+  - type: DomainSecurity
+    url: security/microsoft-azure-notification-hubs-domain-security.yml
+  - type: Authentication
+    url: authentication/microsoft-azure-notification-hubs-authentication.yml
   - type: GitHubOrganization
     url: https://github.com/Azure
   - type: Portal
