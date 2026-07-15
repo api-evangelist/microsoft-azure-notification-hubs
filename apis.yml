@@ -35,6 +35,8 @@ apis:
       - type: Authentication
         url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
 common:
+  - type: AgenticAccess
+    url: agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
   - type: DomainSecurity
     url: security/microsoft-azure-notification-hubs-domain-security.yml
   - type: Authentication
