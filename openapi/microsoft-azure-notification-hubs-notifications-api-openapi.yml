@@ -1,0 +1,58 @@
+openapi: 3.1.0
+info:
+  title: Azure Notification Hubs REST Installations Notifications API
+  description: Azure Notification Hubs REST API enables push notification delivery to Apple, Google, Windows, and Amazon devices. Operations include sending notifications, managing registrations, and installations.
+  version: 2020-06
+servers:
+- url: https://{namespace}.servicebus.windows.net
+  variables:
+    namespace:
+      default: mynamespace
+security:
+- sasToken: []
+tags:
+- name: Notifications
+paths:
+  /{hub}/messages:
+    parameters:
+    - name: hub
+      in: path
+      required: true
+      schema:
+        type: string
+    post:
+      operationId: sendNotification
+      summary: NH Send notification
+      description: Sends a push notification to all registrations or via tag expression.
+      tags:
+      - Notifications
+      parameters:
+      - name: ServiceBusNotification-Format
+        in: header
+        required: true
+        schema:
+          type: string
+      - name: ServiceBusNotification-Tags
+        in: header
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Notification queued
+components:
+  securitySchemes:
+    sasToken:
+      type: apiKey
+      in: header
+      name: Authorization
+externalDocs:
+  description: Azure Notification Hubs REST API Documentation
+  url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+x-generated-from: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+x-generated-by: claude-crawl-2026-05-08
