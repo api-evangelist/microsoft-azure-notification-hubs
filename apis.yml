@@ -3,7 +3,20 @@ description: >-
   Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push
   notifications to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing,
   template notifications, scheduled sends, and telemetry for tracking delivery metrics.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-notification-hubs.png
 tags:
   - Cross-Platform
   - Messaging
@@ -14,26 +27,48 @@ created: '2026-03-13'
 modified: '2026-05-19'
 specificationVersion: '0.18'
 apis:
-  - name: Azure Notification Hubs REST API
-    description: >-
-      Azure Notification Hubs REST API enables sending push notifications at scale to iOS, Android, Windows, and other
-      platforms. It supports device registration, tag-based routing, template notifications, scheduled sends, and
-      telemetry for tracking delivery metrics.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
-    baseURL: https://{namespace}.servicebus.windows.net/
-    tags:
-      - Cross-Platform
-      - Messaging
-      - Mobile
-      - Push Notifications
-    properties:
-      - url: openapi/microsoft-azure-notification-hubs-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
-      - type: Authentication
-        url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
+- aid: microsoft-azure-notification-hubs:microsoft-azure-notification-hubs-installations-api
+  name: Azure Notification Hubs Installations API
+  description: The Installations API from Azure Notification Hubs — 1 operation(s) for installations.
+  humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  baseURL: https://{namespace}.servicebus.windows.net/
+  tags:
+  - Installations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-notification-hubs-installations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
+- aid: microsoft-azure-notification-hubs:microsoft-azure-notification-hubs-notifications-api
+  name: Azure Notification Hubs Notifications API
+  description: The Notifications API from Azure Notification Hubs — 1 operation(s) for notifications.
+  humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  baseURL: https://{namespace}.servicebus.windows.net/
+  tags:
+  - Notifications
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-notification-hubs-notifications-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
+- aid: microsoft-azure-notification-hubs:microsoft-azure-notification-hubs-registrations-api
+  name: Azure Notification Hubs Registrations API
+  description: The Registrations API from Azure Notification Hubs — 1 operation(s) for registrations.
+  humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  baseURL: https://{namespace}.servicebus.windows.net/
+  tags:
+  - Registrations
+  properties:
+  - type: OpenAPI
+    url: openapi/microsoft-azure-notification-hubs-registrations-api-openapi.yml
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
 common:
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
