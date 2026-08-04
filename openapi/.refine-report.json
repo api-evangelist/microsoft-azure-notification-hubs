@@ -1,0 +1,18 @@
+{
+  "provider": "microsoft-azure-notification-hubs",
+  "sources": [
+    "microsoft-azure-notification-hubs-installations-api-openapi.yml",
+    "microsoft-azure-notification-hubs-notifications-api-openapi.yml",
+    "microsoft-azure-notification-hubs-registrations-api-openapi.yml"
+  ],
+  "outputs": [
+    "microsoft-azure-notification-hubs-installations-api-openapi.yml",
+    "microsoft-azure-notification-hubs-notifications-api-openapi.yml",
+    "microsoft-azure-notification-hubs-registrations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
