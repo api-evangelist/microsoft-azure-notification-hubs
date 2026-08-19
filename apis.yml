@@ -25,7 +25,7 @@ tags:
   - Push Notifications
 created: '2026-03-13'
 modified: '2026-05-19'
-specificationVersion: '0.18'
+specificationVersion: '0.23'
 apis:
 - aid: microsoft-azure-notification-hubs:microsoft-azure-notification-hubs-installations-api
   name: Azure Notification Hubs Installations API
