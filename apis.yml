@@ -21,6 +21,12 @@ tags:
   - Cross-Platform
   - Messaging
   - Mobile
+  - Notification
+  - Push Notifications
+tags_raw:
+  - Cross-Platform
+  - Messaging
+  - Mobile
   - Notifications
   - Push Notifications
 created: '2026-03-13'
@@ -47,6 +53,8 @@ apis:
   humanURL: https://learn.microsoft.com/en-us/rest/api/notificationhubs/
   baseURL: https://{namespace}.servicebus.windows.net/
   tags:
+  - Notification
+  tags_raw:
   - Notifications
   properties:
   - type: OpenAPI
