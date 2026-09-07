@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Azure Notification Hubs REST Installations Notifications API
   description: Azure Notification Hubs REST API enables push notification delivery to Apple, Google, Windows, and Amazon devices. Operations include sending notifications, managing registrations, and installations.
