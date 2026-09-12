@@ -1,4 +1,5 @@
 name: Azure Notification Hubs
+url: https://azure.microsoft.com/en-us/products/notification-hubs
 description: >-
   Azure Notification Hubs is a massively scalable mobile push notification engine that enables sending push
   notifications to iOS, Android, Windows, and other platforms. It supports device registration, tag-based routing,
