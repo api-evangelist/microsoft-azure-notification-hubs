@@ -1,9 +1,7 @@
 {
   "provider": "microsoft-azure-notification-hubs",
   "sources": [
-    "microsoft-azure-notification-hubs-installations-api-openapi.yml",
-    "microsoft-azure-notification-hubs-notifications-api-openapi.yml",
-    "microsoft-azure-notification-hubs-registrations-api-openapi.yml"
+    "_ae-authored/microsoft-azure-notification-hubs-openapi.yml"
   ],
   "outputs": [
     "microsoft-azure-notification-hubs-installations-api-openapi.yml",
@@ -14,10 +12,13 @@
   "errors": [],
   "warnings": [],
   "notes": [
-    "microsoft-azure-notification-hubs-installations-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
-    "microsoft-azure-notification-hubs-notifications-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
-    "microsoft-azure-notification-hubs-registrations-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "microsoft-azure-notification-hubs-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
     "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "microsoft-azure-notification-hubs-installations-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "microsoft-azure-notification-hubs-notifications-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "microsoft-azure-notification-hubs-registrations-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
