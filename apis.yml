@@ -92,6 +92,12 @@ apis:
   - type: Authentication
     url: https://learn.microsoft.com/en-us/rest/api/notificationhubs/authentication
 common:
+  - type: Plans
+    url: plans/microsoft-azure-notification-hubs-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/microsoft-azure-notification-hubs-rate-limits.yml
+  - type: FinOps
+    url: finops/microsoft-azure-notification-hubs-finops.yml
   - type: AgenticAccess
     url: agentic-access/microsoft-azure-notification-hubs-agentic-access.yml
   - type: DomainSecurity
