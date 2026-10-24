@@ -1,9 +1,11 @@
 {
   "provider": "microsoft-azure-notification-hubs",
   "sources": [
+    "_original/microsoft-azure-notification-hubs-openapi.json",
     "_ae-authored/microsoft-azure-notification-hubs-openapi.yml"
   ],
   "outputs": [
+    "microsoft-azure-notification-hubs-webapps-api-openapi.yml",
     "microsoft-azure-notification-hubs-installations-api-openapi.yml",
     "microsoft-azure-notification-hubs-notifications-api-openapi.yml",
     "microsoft-azure-notification-hubs-registrations-api-openapi.yml"
@@ -12,9 +14,11 @@
   "errors": [],
   "warnings": [],
   "notes": [
-    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "microsoft-azure-notification-hubs-openapi.json: upgraded swagger 2.0 -> OpenAPI 3.2.0",
+    "microsoft-azure-notification-hubs-openapi.json: declared missing tag: WebApps",
     "microsoft-azure-notification-hubs-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
-    "apis.yml register: already-registered"
+    "apis.yml register: written (+1 apis, 4 total)"
   ],
   "skipped": [
     "microsoft-azure-notification-hubs-installations-api-openapi.yml: previously refined output, superseded by openapi/_original/",
